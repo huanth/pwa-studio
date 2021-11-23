@@ -6,7 +6,6 @@ const inquirer = require('inquirer');
 const execa = require('execa');
 const chalk = require('chalk');
 const gitUserInfo = require('git-user-info');
-const isInvalidPath = require('is-invalid-path');
 const isValidNpmName = require('is-valid-npm-name');
 const pkg = require('../package.json');
 const defaultSampleBackends = require('@magento/pwa-buildpack/sampleBackends.json');
